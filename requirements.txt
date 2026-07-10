@@ -1,0 +1,13 @@
+# Pinned for reproducibility. Adjust versions to your environment if needed.
+pandas>=2.2,<3
+numpy>=1.26,<3
+scikit-learn>=1.4,<2
+matplotlib>=3.8,<4
+jupyter>=1.0
+pytest>=8.0
+# Experiment 3 (difficulty-tier generation) -- needed by generate_difficulty_tiers.py
+anthropic>=0.116
+openai>=1.40          # cross-vendor tier (Groq/Llama via the OpenAI-compatible API)
+# Experiment 2 (neural detector) -- uncomment when you get there:
+# torch>=2.2
+# transformers>=4.40
